@@ -1,0 +1,21 @@
+.dropdown .dropdown-menu {
+    transition: all .5s;
+    overflow: hidden;
+    transform-origin: top center;
+    transform: scale(1,0);
+    display: block;
+    border: 0 solid transparent;
+    background-color: #28a745;;
+  }
+  
+  .dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 8px 20px!important;
+    color: #fff!important;
+    background-color: #28a745;;
+    text-transform: capitalize;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+  }
